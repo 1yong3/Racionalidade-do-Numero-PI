@@ -1,0 +1,145 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0e0e0e;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+/* ================= HEADER ================= */
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px 40px;
+    background: #111;
+    border-bottom: 2px solid #222;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+nav a {
+    color: #00d0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ================= SEÇÕES ================= */
+section {
+    display: grid;
+    gap: 15px;
+    padding: 60px 40px;
+    border-bottom: 1px solid #222;
+}
+
+section h2 {
+    font-size: 1.6rem;
+    color: #00d0ff;
+}
+
+section p {
+    max-width: 800px;
+}
+
+/* BOTÃO */
+.btn-vermais {
+    width: max-content;
+    padding: 10px 20px;
+    background: #00d0ff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-vermais:hover {
+    background: #00aacc;
+}
+
+/* ================= CÍRCULO ================= */
+#circulo {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#circle-container {
+    display: grid;
+    place-items: center;
+}
+
+#tabela-interativa {
+    border: 1px dashed #555;
+    padding: 20px;
+    min-height: 150px;
+}
+
+/* ================= LINK EXTERNO ================= */
+#external-link {
+    width: max-content;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #00d0ff;
+    color: #00d0ff;
+    text-decoration: none;
+}
+
+#external-link:hover {
+    background: #00d0ff;
+    color: #000;
+}
+
+/* ================= VÍDEOS ================= */
+.gif_1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 60px 40px;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #111;
+    color: #666;
+}
+
+/* ================= RESPONSIVO ================= */
+@media (max-width: 900px) {
+    #circulo {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav {
+        grid-auto-flow: row;
+    }
+}

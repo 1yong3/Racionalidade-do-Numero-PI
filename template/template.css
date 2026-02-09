@@ -1,0 +1,98 @@
+/* ESTILO GERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #d0e6ff;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #001a33;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0066cc;
+}
+
+header h1 {
+    color: #66b3ff;
+    margin: 0 0 10px;
+}
+/* BACKGROUND OPACIDADE BAIXA*/
+header {
+    position: relative;
+    background-color: #001a33; /* fundo base */
+    color: #66b3ff;
+    padding: 40px 20px;
+    text-align: center;
+    overflow: hidden; /* garante que elementos não saiam do header */
+    border-bottom: 3px solid #0066cc;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('img/pitagoras-bg-2.webp'); /* WebP funciona normalmente */
+    background-size: cover;
+    background-position: left center;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+/* NAVBAR */
+nav a {
+    color: #cce6ff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #66b3ff;
+}
+
+/* SEÇÕES */
+main {
+    padding: 40px 20px;
+}
+
+.secao {
+    background-color: #001020;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 4px solid #0066cc;
+    border-radius: 6px;
+}
+
+.secao h2 {
+    color: #66b3ff;
+}
+
+/* BOTÕES */
+.btn {
+    margin-top: 15px;
+    padding: 12px 22px;
+    font-size: 16px;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0066cc;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #001a33;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #0066cc;
+    margin-top: 40px;
+}

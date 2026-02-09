@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: #0a0a0a;
+    font-family: Arial, sans-serif;
+    color: #d0e6ff;
+}
+
+/* HEADER */
+header {
+    background-color: #001a33;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0066cc;
+}
+
+header h1 {
+    color: #66b3ff;
+    margin: 0;
+}
+
+nav a {
+    color: #cce6ff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+header h1,
+header nav {
+    position: relative;  /* garante que fique acima do ::before */
+    z-index: 1;          /* z-index maior que o pseudo-elemento */
+}
+
+nav a:hover {
+    color: #66b3ff;
+}
+/* BACKGROUND OPACIDADE BAIXA*/
+header {
+    position: relative;
+    background-color: #001a33; /* fundo base */
+    color: #66b3ff;
+    padding: 40px 20px;
+    text-align: center;
+    overflow: hidden; /* garante que elementos não saiam do header */
+    border-bottom: 3px solid #0066cc;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('img/pitagoras-bg-2.webp'); /* WebP funciona normalmente */
+    background-size: cover;
+    background-position: left center;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+/* SESSÕES */
+section {
+    padding: 50px 20px;
+    border-bottom: 2px solid #003366;
+}
+
+h2 {
+    color: #66b3ff;
+    margin-bottom: 15px;
+}
+
+/* CÍRCULO */
+#circle-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #000000;
+    border: 2px solid #004d99;
+    border-radius: 50%;
+}
+
+/* BOTÕES VER MAIS */
+.btn-vermais,
+#external-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 22px;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-vermais:hover,
+#external-link:hover {
+    background-color: #0066cc;
+}
+.gif_1{
+    display:flex;
+    justify-content: center;
+    align-items: center;     
+    
+}
