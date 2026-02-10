@@ -1,12 +1,145 @@
 Matematica
+1. o que é o numero PI
+2.Arquimedes e o numero PI
+3. Circunferencias, esferas e circulos
+4. Circulos Trigonometrico
+5. Historia do numero PI
+6. Os erros mais comuns
+7. Irracionalidade do Numero PI
+------------------------------------------------
+1. O que é o numero PI 
 
-Filosofos e a Matematica
-    Numero PI 
-    Arquimedes
+O número π (pi) é uma constante matemática universal que representa a razão entre o comprimento de qualquer circunferência e seu diâmetro. Seu valor aproximado é 3,14159, sendo categorizado como um número irracional e infinito, ou seja, seus dígitos nunca terminam nem se repetem.
+    O π é fundamental para descrever formas e movimentos circulares e curvos. Ele aparece em cálculos de círculos, esferas, ondas, rotações e curvaturas, sendo essencial tanto para fenômenos do microcosmo (átomos, células, vibrações) quanto do macrocosmo (órbitas planetárias, trajetórias espaciais, campos gravitacionais).
+    Por isso, o π não é apenas um número geométrico: ele é uma chave matemática que conecta padrões naturais, físicos e cósmicos, ajudando a humanidade a compreender desde a estrutura da matéria até o movimento do universo. 
+    Seu campo rege questões essensicais da sociedade humana tanto no campo do micro como átomos e células como o campo do macro como trajetórias espaciais, planetas e campos gravitacionais.
+    Um dos primeiros experimentos possiveis é pegar uma corda ou linha e medir a circunferencia de qualquer esfera ou circulo, em seguida estique a corda: O resultado de qualquer circunferencia será três partes iguais e mais um pouco (3,14) representando que todas as formas circulares obedecem a mesma proporção universal.
 
-Trigonometria 101
-    Circulo, Angulos e Esfera
+2.Arquimedes e o numero PI
+    Arquimedes de Siracusa (c. 287–212 a.C.) foi um dos primeiros matemáticos da história a estudar o número π de forma rigorosa. Ele não usava o símbolo π, mas investigava a razão entre a circunferência e o diâmetro de um círculo.
 
-Micromundo e Macro Mundo
+    Seu grande feito foi criar um método geométrico para estimar o valor de π, conhecido como método da exaustão:
+Arquimedes desenhava polígonos regulares dentro e fora de um círculo, começando com hexágonos e foi dobrando o número de lados até chegar a polígonos de 96 lados, comparando os perímetros desses polígonos com a circunferência, ele obteve limites para π.
+
+    Sua ideia de conceito com poligonos foi um embrião ao começo da Trigonometria, embora Arquimedes não estivesse totalmente correto sobre os valores e as fronteiras do numero PI, seu trabalho foi essencial para avançar os estudos matématicos sobre PI, respondendo a pergunta : "Como um ângulo determina um comprimento?"
+
+3.Circulo, Angulos e Esfera
+   Para compreender as circunferências, é fundamental distinguir três conceitos diferentes: círculo plano, circunferência e esfera.
+    O círculo plano é a forma mais comum e intuitiva. Quando desenhamos um círculo no papel, estamos representando uma figura bidimensional, definida por todos os pontos contidos dentro de uma circunferência. Um exemplo cotidiano é o desenho de uma roda visto de frente.
+    A circunferência, por sua vez, não é a área interna, mas apenas a linha curva que delimita o círculo. Ela representa o caminho fechado e contínuo que mantém sempre a mesma distância do centro.
+
+    Já a esfera é uma forma geometrica bem mais complexa, na verdade a esfera em si é a forma geométrica perfeita, ela é encontrada em todos os lugares do universo, seja no macro mundo ou no micro mundo. A própria curvatura do universo faz com que tudo dentro dele seja curvado, circular e esférico, como os átomos, células, olhos, ovos e planetas tendem a assumir estruturas curvas, revelando um padrão universal de organização.
+    Então entender os conceitos de PI é mais que uma conquista matématica, é entender como o universo funciona e se programa.
+
+4. Circulo Trigonometrico
+    O círculo trigonométrico é uma representação geométrica fundamental usada para compreender as relações entre ângulos, comprimentos e movimentos circulares. Ele consiste em um círculo de raio 1, desenhado sobre um plano cartesiano, com centro na origem dos eixos.
+    A escolha do raio igual a 1 não é arbitrária: ela permite que os valores trigonométricos sejam lidos diretamente como coordenadas, simplificando os cálculos e revelando padrões universais.
+
+    Ângulos e rotação
+
+    No círculo trigonométrico, os ângulos são medidos a partir do eixo horizontal positivo (eixo x), no sentido anti-horário, que é considerado o sentido positivo de rotação. Cada ângulo corresponde a um ponto específico da circunferência.
+
+5. Historia do Numero PI
+            Antiguidade primitiva — o π empírico (antes de 2000 a.C.)
+    Muito antes da matemática formal, o ser humano já lidava com círculos: rodas, poços, cabanas, recipientes e observações do céu. Ao medir objetos circulares com cordas e varas, percebeu-se algo recorrente:
+o comprimento da borda de um círculo era sempre um pouco mais de três vezes o seu diâmetro.
+    Esse π inicial não era um número exato, mas uma intuição prática, nascida da experiência direta com o mundo.
+
+                Egito Antigo (c. 2000 a.C.)
+    No Papiro de Rhind, os egípcios usavam uma aproximação de π ≈ 3,16.
+Essa estimativa era aplicada em:
+    construções
+    agrimensura
+    arquitetura (pirâmides, colunas, reservatórios)
+Para os egípcios, π era uma ferramenta funcional, não um conceito abstrato.
+
+            Grécia Antiga — o π racionalizado (século IV–III a.C.)
+    Com os gregos, ocorre uma virada radical: a matemática deixa de ser apenas prática e passa a ser demonstrativa.
+    Arquimedes de Siracusa (287–212 a.C.)
+Arquimedes revoluciona o estudo do π ao:
+    abandonar medições físicas
+    usar polígonos inscritos e circunscritos
+    calcular limites rigorosos
+Ele traz uma aproximação de: 3,1408<π<3,1429
+    Arquimedes mostra que π pode ser aproximado infinitamente, inaugurando a ideia de limite, base do cálculo moderno.
+
+            Mundo Helenístico e Romano (séculos II a.C. – III d.C.)
+    Matemáticos como Hiparco e Ptolomeu desenvolvem a trigonometria, essencial para:
+    astronomia
+    navegação
+    estudo dos movimentos circulares
+π torna-se central para descrever órbitas, ângulos e o céu.
+
+            Mundo Islâmico Medieval (séculos VIII–XIV)
+    Durante a Idade Média europeia, o conhecimento grego é preservado e expandido no mundo islâmico.
+    Matemáticos como:
+    Al-Khwarizmi
+    Al-Biruni
+    Jamshid al-Kashi
+Calculam π com grande precisão.
+    Al-Kashi chega a 16 casas decimais, um feito extraordinário para a época. Aqui, π se une à álgebra e à astronomia avançada.
+
+
+Johann Heinrich Lambert (1728–1777)
+    Foi um matemático, físico e filósofo suíço. Autodidata, ele atuou em diversas áreas do conhecimento, mas entrou para a história da matemática por um feito decisivo:
+Foi o primeiro a provar que o número π é irracional.
+    A grande dúvida era:
+    π pode ser expresso como uma fração exata entre dois números inteiros?
+
+    Ou seja, π seria racional como 22/7 ou 355/113?
+
+A prova de Lambert (1761)
+Em 1761, Lambert demonstrou que:
+
+    Se 𝑥 ≠ 0 É racional, então tan(x) é irracional
+    Como tan(π/4) = 1, isso leva à conclusão de que π não pode ser racional
+Com isso, Lambert disse que:
+                        𝜋 é irracional
+Ou seja:
+    π não pode ser escrito como fração
+    Seu desenvolvimento decimal é infinito e não periódico
+    Essa foi a primeira prova rigorosa da irracionalidade de π.
+
+    Da corda primitiva ao computador moderno, o número π acompanha a humanidade como uma constante silenciosa. Ele atravessou impérios, religiões, revoluções científicas e eras tecnológicas sem jamais ser esgotado. π não pertence a uma época, nem a uma cultura específica: ele é a assinatura matemática da curvatura do mundo. Quanto mais a humanidade avança, mais descobre que o universo continua girando em torno do mesmo número infinito.
+
+Usos do número π na modernidade
+    1.Engenharia mecânica
+Cálculo de engrenagens, eixos, rolamentos, motores, turbinas e sistemas de rotação.
+    2.Engenharia civil
+Dimensionamento de colunas, túneis, tubulações, pontes, reservatórios e estruturas circulares.
+    3.Arquitetura
+Projeto de cúpulas, arcos, colunas, escadas helicoidais e sistemas de distribuição de carga.
+    4.Física
+Presente em equações de ondas, eletromagnetismo, mecânica quântica, termodinâmica e relatividade.
+    5.Astronomia e exploração espacial
+Cálculo de órbitas planetárias, trajetórias de satélites, rotação de corpos celestes e missões espaciais.
+    6.Computação gráfica e jogos
+Renderização 2D e 3D, rotações, animações, simulações físicas e efeitos visuais.
+    7.Simulações científicas
+Modelagem de fenômenos naturais como clima, fluidos, vibrações e propagação de ondas.
+    8.Criptografia e segurança digital
+Testes de aleatoriedade, geração de chaves e validação de algoritmos.
+    9.Processamento de sinais
+Análise de áudio, imagem, vídeo, telecomunicações e compressão de dados.
+    10.Medicina
+Tomografia computadorizada, ressonância magnética, ultrassom e estudo de fluxos sanguíneos.
+    11.Estatística e probabilidade
+Distribuições normais (gaussiana), análise de dados e modelos probabilísticos.
+    12.Robótica
+Cálculo de movimento circular, articulações, sensores e controle de trajetória.
+    13.Energia e eletricidade
+Análise de correntes alternadas, campos eletromagnéticos e sistemas de geração e transmissão.
+    14.Indústria e manufatura
+Usinagem de peças cilíndricas, tubos, cabos, rolamentos e engrenagens industriais.
+
+
+
+
+
+
+    
+
+
+
 
 
