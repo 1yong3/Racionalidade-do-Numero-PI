@@ -30,9 +30,24 @@ header nav {
     z-index: 1;          /* z-index maior que o pseudo-elemento */
 }
 
+.video_topo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  object-position: center 20%;
+}
+
+.video_topo video {
+  width: 50%;
+  height: 80%;
+}
+
 nav a:hover {
     color: #66b3ff;
 }
+
 /* BACKGROUND OPACIDADE BAIXA*/
 header {
     position: relative;
