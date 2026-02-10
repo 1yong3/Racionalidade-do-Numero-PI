@@ -28,7 +28,13 @@ header::before {
     opacity: 0.2;
     z-index: 0;
 }
-
+.texto{
+  line-height: 1.7;
+  padding: 0px 100px;
+}
+.linha{
+    text-align: center;
+}
 
 header h1 {
     color: #66b3ff;
